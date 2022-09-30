@@ -1,0 +1,158 @@
+body{
+    margin: 0%;
+    background-color: whitesmoke;
+}
+header{
+    background-color: rgb(53, 82, 124);
+    border-style: solid;
+    border-color: white;
+    align-items: center;
+} 
+#title{
+    display: flex;
+    font-size: 600%;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.amazonlogo{
+    display: flex;
+    width : 10%;
+    height : 10%;   
+    margin: 0%
+}
+.image{
+    display:block;
+    width:100%;
+    height: 60%;
+}
+/* Main*/
+.soustitre{
+    display: flex;
+    background-color: rgb(80, 113, 163);
+    margin:  0%;
+    padding: 2%;
+    justify-content: space-evenly;   
+    color: white;    
+}
+#alexa{
+    color: rgb(53, 82, 124);
+    font-size: 400%;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    font-family: Segoe UI;  
+    background-color: whitesmoke; 
+}
+.alexiadescription{
+    display: flex;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+    text-align: justify;
+    margin-block-start: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+    font-size: 150%;
+}
+
+#caracteristique{
+    display: flex;
+    font-size: 300%;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    font-family: Segoe UI;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.ricardo{
+    display: flex;
+    margin-left: 5%;
+}
+.caracteristiquelist {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8%;
+    font-size: 150%;
+}
+#manueluilisation{
+    display: flex;
+    font-size: 300%;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    font-family: Segoe UI;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: 2%;  
+}
+.manuelphoto{
+    display: flex;
+    justify-content: center;    
+}
+.convaincu{
+    display :flex;
+    font-size: 150%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-left: 3%;
+}
+.boutton{
+    display: flex;
+    scale: 250%;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+footer{
+    background-color: rgb(53, 82, 124)
+}
+.rectanglefin{
+    display: flex;
+    margin-top: 10%;
+    background-color: orange;
+    justify-content: center;
+    min-height: 3vh;
+}
+.fin{
+    display:flex;
+    justify-content: flex-end;
+}
+.amazonlogofin{
+    display: flex;
+    width : 15%;
+    height :15%;   
+    flex-direction: row;
+    margin-right: 2%;
+}
+@media all and (max-device-width:480px) {
+    /*header*/
+#alexa{
+    font-size: 300%;
+}
+body{
+        background-color:white;
+        margin: 0%;
+    }
+    .ricardo{
+        flex-direction: column;
+    }
+    .manuelphoto{
+        flex-direction: column;
+    }
+}
+@media all and (max-device-width:800px) {
+    .manuelphoto{
+        flex-direction: column;
+    }
+    .ricardo{
+        flex-direction: column;
+    }
+}
