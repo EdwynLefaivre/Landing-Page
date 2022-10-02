@@ -1,0 +1,177 @@
+html, body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+header{
+    background-color: rgb(53, 82, 124);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+} 
+.amazonlogo{
+    width : 10%;
+    height : 10%;   
+}
+#title{
+    font-size: 400%;
+    flex-direction: row -reverse;  
+    margin: 0;
+    flex-grow: 2; 
+    text-align: center;
+    color: white;
+}.soustitre{
+    display: flex;
+    background-color: rgb(80, 113, 163);
+    margin:  0%;
+    padding: 2%;
+    justify-content: space-evenly;   
+    color: white;    
+}
+#alexa{
+    color: rgb(53, 82, 124);
+    font-size: 400%;
+    margin-inline-start: 15%;
+    margin-inline-end: 15%;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    font-family: Segoe UI;  
+    background-color: whitesmoke; 
+}
+.image{
+    display:block;
+    width:100%;
+    height: 60%;
+    margin-bottom: 10%;
+}
+
+.alexiadescription{
+    display: flex;
+    margin-inline-start: 15%;
+    margin-inline-end: 15%;
+    text-align: justify;
+    margin-block-start: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+    font-size: 150%;
+    margin-bottom: 7%;
+}
+
+#caracteristique{
+    display: flex;
+    font-size: 300%;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    font-family: Segoe UI;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.ricardo{
+    display: flex;
+    margin-left: 5%;
+}
+.caracteristiquelist {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8%;
+    font-size: 150%;
+    margin-right: 20%;
+}
+#manueluilisation{
+    display: flex;
+    font-size: 300%;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+    font-family: Segoe UI;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 10%; 
+}
+.manuelphoto{
+    display: flex;
+    justify-content: center;    
+}
+.convaincu{
+    display: flex;
+    font-size: 150%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-left: 3%;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    scale: 200%;
+    color: white;
+    background-color:rgb(53, 82, 124);
+    border-radius: 20em;
+    font-size: 60%;
+    border-color: rgb(53, 82, 124);
+}
+footer{
+    background-color: rgb(53, 82, 124)
+}
+.rectanglefin{
+    display: flex;
+    margin-top: 10%;
+    background-color: orange;
+    justify-content: center;
+    min-height: 3vh;
+}
+.fin{
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 3%;
+}
+.amazonlogofin{
+    display: flex;
+    width : 15%;
+    height :15%;   
+    flex-direction: row;
+
+}
+@media all and (max-device-width:480px) {
+#alexa{
+    font-size: 300%;
+}
+body{
+        background-color:white;
+        margin: 0%;
+        margin-right: 0;
+    }
+    .ricardo{
+        flex-direction: column;
+    }
+    .manuelphoto{
+        flex-direction: column;
+    }
+    #manueluilisation{
+        font-size: 200%;
+
+    }
+    #caracteristique{
+        font-size: 200%;
+    }
+}
+@media all and (max-device-width:800px) {
+
+    .manuelphoto{
+        flex-direction: column;
+    }
+    .image{
+        scale: 90%;
+    }
+    .ricardo{
+        flex-direction: column;
+        margin: 0%;
+        scale: 90%;
+        margin: 0;
+    }
+    #manueluilisation{
+        margin: 0;
+        font-family: 100%;
+    }
+}   
